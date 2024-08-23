@@ -1,5 +1,5 @@
 package com.ava.repository.crud;
 
-public interface Create<Event>{
-    public Event createEvent (Event event);
+public interface Create<Entity>{
+    public Entity createEvent (Entity event);
 }
